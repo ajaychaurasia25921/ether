@@ -1,0 +1,7 @@
+version: "2.2"
+services:
+  admin:
+    container_name: ether
+    image: "admin:ether-0.0.1"
+    ports:
+        - 8090:8090
